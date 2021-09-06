@@ -1,0 +1,9 @@
+public class SubractionOfTwoNumber  {
+    public static void main(String args[]) {
+      int x=17;
+      int y=24;
+      int z=x-y;
+
+      System.out.println("sub of x-y = " + z);
+    }
+}
