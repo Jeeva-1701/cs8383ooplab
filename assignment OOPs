@@ -1,0 +1,51 @@
+// Assignment 2 set 1
+// Addition of floating points using inheritance
+class one{
+    float s=6.7f;
+    
+}
+public class two extends one{
+    float b=8.6f;
+    public static void main(String args[]){
+        two o=new two();
+        
+        System.out.println(o.s+o.b);
+        
+    }
+}
+// Addition of floating numbers using abstract class
+abstract class Sum{  
+	  abstract void add();  
+	}  
+	public class MyClass extends Sum{  
+	void add()
+      {
+          float s=78.65f,d=66.98f;
+          System.out.println(s+d);
+          
+      }  
+	  
+	public static void main(String args[]){  
+	 Sum obj = new MyClass();  
+	 obj.add();  
+	 }  
+}  
+
+
+// Adiition of floating numbers using interface
+interface Sum{  
+	void add();  
+	}  
+	  
+	public class MyClass implements Sum{  
+	public void add(){
+	    float s=65.656f, t=656.65f;
+	    System.out.println(s+t);
+	    
+	}  
+	  
+	public static void main(String args[]){  
+	MyClass obj = new MyClass();  
+	obj.add();  
+	 }  
+	}  
